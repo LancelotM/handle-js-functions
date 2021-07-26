@@ -8,6 +8,9 @@
     "dev": "parcel web/index.html",
     "build": "parcel build web/index.html"
   },
+  "alias": {
+    "utils": "./src/utils"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LancelotM/handle-js-functions.git"

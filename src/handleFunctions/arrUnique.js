@@ -1,3 +1,4 @@
+import 'utils';
 /**
  * 数组去重
  */
@@ -5,10 +6,10 @@
 const arr = [1,1,'1',17,true,true,false,false,'true','a',{},{}]
 
 const res1 = Array.from(new Set(arr));
-console.log('res1',res1)
+console.log(__filename,'res1',res1)
 
 const res2 = [...new Set(arr)]
-console.log('res2',res2)
+console.log(__filename,'res2',res2)
 
 const unique1 = arr => {
     const res = []
@@ -18,14 +19,14 @@ const unique1 = arr => {
     }
     return res;
 }
-console.log('res3',unique1(arr))
+console.log(__filename,'res3',unique1(arr))
 
 const unique2 = arr => {
     return arr.filter((item,index)=>{
         return arr.indexOf(item) === index
     })
 }
-console.log('res4',unique2(arr))
+console.log(__filename,'res4',unique2(arr))
 
 const unique3 = arr => {
     const map = new Map();
@@ -38,4 +39,4 @@ const unique3 = arr => {
     }
     return res;
 }
-console.log('res5',unique3(arr))
+console.log(__filename,'res5',unique3(arr))

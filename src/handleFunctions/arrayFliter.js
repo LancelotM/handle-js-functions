@@ -1,3 +1,4 @@
+import 'utils';
 /**
  * 数组filter
  */
@@ -38,10 +39,10 @@ const copilotNewArray = copilotArrayFliter(testArray, function(item, index, arra
     // console.log(item, index, array);
     return item >5;
 })
-console.log(copilotNewArray);
+console.log(__filename, 'copilotNewArray', copilotNewArray);
 
 const newArray = testArray.arrayFliter(function(item, index, array) {
     // console.log(item, index, array);
     return item >5;
 })
-console.log(newArray);
+console.log(__filename, 'newArray', newArray);

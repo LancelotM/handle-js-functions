@@ -1,3 +1,4 @@
+import 'utils';
 /**
  * 数组map
  */
@@ -22,8 +23,8 @@ Array.prototype.arrayMap = function(callback,thisArg) {
 }
 
 let testRes = testArray.arrayMap((item,index,arr)=>{
-    console.log(item,index,arr);
+    console.log(__filename,item,index,arr);
     return item;
 });
 
-console.log(testRes);
+console.log(__filename, 'testRes', testRes);
