@@ -5,7 +5,6 @@
 const domArr = document.querySelectorAll('div');
 
 console.log('domArr',domArr)
-
 const res1 = Array.from(domArr)
 console.log('res1',res1)
 

@@ -1,0 +1,27 @@
+{
+  "name": "handle-js-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel web/index.html",
+    "build": "parcel build web/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LancelotM/handle-js-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LancelotM/handle-js-functions/issues"
+  },
+  "homepage": "https://github.com/LancelotM/handle-js-functions#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
