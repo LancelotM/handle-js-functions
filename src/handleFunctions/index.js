@@ -3,6 +3,7 @@ import './arrayFliter';
 import './arrayMap';
 import './arrFlat';
 import './arrUnique';
+import './arrayForEach';
 
 // const _list  = [1,2,3]
 // const pList = new Proxy(_list,{
