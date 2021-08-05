@@ -1,12 +1,11 @@
 {
   "name": "handle-js-functions",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "手动实现js方法 并且 实验npm package",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel web/index.html",
-    "build": "parcel build web/index.html"
+    "build": "parcel build src/index.js"
   },
   "alias": {
     "utils": "./src/utils"
@@ -15,8 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/LancelotM/handle-js-functions.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "handle",
+    "function",
+    "test"
+  ],
+  "author": "LancelotM",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LancelotM/handle-js-functions/issues"
